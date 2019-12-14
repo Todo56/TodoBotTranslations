@@ -37,82 +37,82 @@
     {
       "id": 6,
       "name": "Error",
-      "value": "That file format is not supported :("
+      "value": "Ese formato de archivo no está permitido."
     },
     {
       "id": 7,
-      "name": "Success!",
-      "value": "I've created emoji {{emoji}}."
+      "name": "Éxito!",
+      "value": "He creado el emoji {{emoji}}."
     },
     {
       "id": 8,
-      "name": "Success!",
-      "value": "All channels [{{channels_size}}] have been locked down."
+      "name": "Éxito!",
+      "value": "Todos los canales [{{channels_size}}] han sido bloqueados."
     },
     {
       "id": 8,
-      "name": "Success!",
-      "value": "{{channel}} has been locked down!"
+      "name": "Éxito!",
+      "value": "{{channel}} ha sido blockeado!"
     },
     {
       "id": 9,
-      "name": "Success!",
-      "value": "Emoji {{emoji}} has been deleted successfully!"
+      "name": "Éxito!",
+      "value": "El emoji {{emoji}} ha sido borrado!"
     },
     {
       "id": 10,
       "name": "Error",
-      "value": "Please mention a valid emoji."
+      "value": "Porfabor menciona a un emoji valido."
     },
     {
       "id": 11,
       "name": "Error",
-      "value": "Emoji not found!"
+      "value": "No se ha encontrado el emoji."
     },
     {
       "id": 12,
       "name": "Error",
-      "value": "This user hasn't got that role."
+      "value": "Este usuario no tiene el rol mencionado."
     },
     {
       "id": 13,
-      "name": "Success!",
-      "value": "{{role}} has been removed from {{user}}"
+      "name": "Éxito!",
+      "value": "El rol {{role}} ha sido retirado de {{user}}"
     },
     {
       "id": 14,
       "name": "",
-      "value": "This channel is not nsfw!"
+      "value": "Este canal no es NSFW!"
     },
     {
       "id": 15,
       "name": "Error",
-      "value": "A prefix can't be longer than 10 characters."
+      "value": "Un prefijo no puede ser más de 10 caracteres de largo!"
     },
     {
       "id": 16,
-      "name": "Success!",
-      "value": "Prefix for {{guild}} has been changed to {{prefix}}."
+      "name": "Éxito!",
+      "value": "El prefijo para {{guild}} ha sido cambiado a {{prefix}}."
     },
     {
       "id": 17,
       "name": "Error",
-      "value": "Please mention a prefix."
+      "value": "Porfabor menciona un prefijo valido."
     },
     {
       "id": 18,
-      "name": "Success!",
-      "value": "BotLogs channel has now been changed to {{channel}}."
+      "name": "Éxito!",
+      "value": "El canal de logs ha sido cambiado a {{channel}}."
     },
     {
       "id": 19,
       "name": "Error",
-      "value": "This channel cannot be set as botlogs."
+      "value": "Este canal no puede ser establecido como canal de logs."
     },
     {
       "id": 20,
-      "name": "Success!",
-      "value": "Initial role has been changed to <@&{{role_id}}>."
+      "name": "Éxito!",
+      "value": "El rol inicial ha sido actualizado a <@&{{role_id}}>."
     },
     {
       "id": 21,
