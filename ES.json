@@ -91,67 +91,67 @@
     {
       "id": 17,
       "name": "Éxito!",
-      "value": "Prefix for {{guild}} has been changed to {{prefix}}."
+      "value": "El prefijo de {{guild}} ha sido cambiado a {{prefix}}."
     },
     {
       "id": 18,
       "name": "Error",
-      "value": "Please mention a prefix."
+      "value": "Porfabor menciona un prefijo valido."
     },
     {
       "id": 19,
-      "name": "Success!",
-      "value": "BotLogs channel has now been changed to {{channel}}."
+      "name": "Éxito!",
+      "value": "El canal de logs a sido actualizado a {{channel}}."
     },
     {
       "id": 20,
       "name": "Error",
-      "value": "This channel cannot be set as botlogs."
+      "value": "Este canal no puede ser el canal de logs."
     },
     {
       "id": 21,
-      "name": "Success!",
-      "value": "Initial role has been changed to <@&{{role_id}}>."
+      "name": "Éxito!",
+      "value": "El rol inicial ha sido actualizado a <@&{{role_id}}>."
     },
     {
       "id": 22,
-      "name": "Success!",
-      "value": "The leave channel has been updated to {{channel}}"
+      "name": "Éxito!",
+      "value": "El canal de salida ha sido actualizado a {{channel}}."
     },
     {
       "id": 23,
-      "name": "Success!",
-      "value": "The leave message has been updated to {{message}} \n Please keep in mind that {user} replaces the user and {totalme} replaces the total members!"
+      "name": "Éxito!",
+      "value": "El mensaje de salida ha sido actualizado a {{message}}\nPorfabor ten en cuenta que {user} reemplaza al nombre del usuario y {totalme} reemplaza el número total de usuarios!"
     },
     {
       "id": 24,
       "name": "Error",
-      "value": "Please mention a valid message."
+      "value": "Porfabor menciona un mensaje valido."
     },
     {
       "id": 25,
       "name": "Error",
-      "value": "Please specify a valid module."
+      "value": "Porfabor menciona un módule valido."
     },
     {
       "id": 26,
       "name": "Error",
-      "value": "Please give a value."
+      "value": "Porfabor introduzca un valor."
     },
     {
       "id": 27,
-      "name": "Success!",
-      "value": "Module {{module}} has been set to {{value}}."
+      "name": "Éxito!",
+      "value": "El módulo {{module}} ha sido actualizado a {{value}}."
     },
     {
       "id": 28,
-      "name": "Success!",
-      "value": "The welcome channel has been updated to {{channel}}"
+      "name": "Éxito!",
+      "value": "El canal de bienvenida ha sido actualizado a {{channel}}."
     },
     {
       "id": 29,
-      "name": "Success!",
-      "value": "The welcome channel has been updated to {{channel}}"
+      "name": "Éxito!",
+      "value": "El canal de bienvenida ha sido actualizado a {{channel}}."
     },
     {
       "id": 30,
