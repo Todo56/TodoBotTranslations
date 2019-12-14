@@ -11,28 +11,28 @@
   "bot_messages": [
     {
       "id": 1,
-      "name": "No permission",
-      "value": "You don't have permission to do that."
+      "name": "Permissos Insuficientes",
+      "value": "No tienes suficientes permisos para hacer eso!"
     },
     {
       "id": 2,
       "name": "Error",
-      "value": "Please mention a valid user."
+      "value": "Porfabor menciona a un usuario valido."
     },
     {
       "id": 3,
       "name": "Error",
-      "value": "Please mention a valid role"
+      "value": "Porfabor menciona a un rol valido."
     },
     {
       "id": 4,
       "name": "Error",
-      "value": "There has been an error: {{error}}"
+      "value": "Ha ocurrido un error: {{error}}"
     },
     {
       "id": 5,
-      "name": "Success!",
-      "value": "{{role}} has been added to {{user}}."
+      "name": "Éxito!",
+      "value": "El rol {{role}} ha sido añadido a {{user}}."
     },
     {
       "id": 6,
