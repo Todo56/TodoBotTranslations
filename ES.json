@@ -51,47 +51,46 @@
     },
     {
       "id": 9,
-      "name": "Success!",
-      "value": "{{channel}} has been locked down!"
+      "name": "Éxito!",
+      "value": "{{channel}} ha sido bloqueado!"
     },
     {
       "id": 10,
-      "name": "Success!",
-      "value": "Emoji {{emoji}} has been deleted successfully!"
+      "name": "Éxito!",
+      "value": "El emoji {{emoji}} ha sido retirado!"
     },
     {
       "id": 11,
       "name": "Error",
-      "value": "Please mention a valid emoji."
+      "value": "Porfabor menciona un emoji valido."
     },
     {
       "id": 12,
       "name": "Error",
-      "value": "Emoji not found!"
-    },
+      "value": "Emoji no encontrado."
     {
       "id": 13,
       "name": "Error",
-      "value": "This user hasn't got that role."
+      "value": "Este usuario no tiene ese rol."
     },
     {
       "id": 14,
-      "name": "Success!",
-      "value": "{{role}} has been removed from {{user}}"
+      "name": "Éxito!",
+      "value": "El rol {{role}} ha sido retirado de {{user}}."
     },
     {
       "id": 15,
       "name": "",
-      "value": "This channel is not nsfw!"
+      "value": "Este canal no es NSFW!"
     },
     {
       "id": 16,
       "name": "Error",
-      "value": "A prefix can't be longer than 10 characters."
+      "value": "El prefijo no puede ser más largo de 10 caracters."
     },
     {
       "id": 17,
-      "name": "Success!",
+      "name": "Éxito!",
       "value": "Prefix for {{guild}} has been changed to {{prefix}}."
     },
     {
