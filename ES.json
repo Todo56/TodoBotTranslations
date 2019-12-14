@@ -523,6 +523,11 @@
       "id": 103,
       "name": "Not found",
       "value": "No warnings could be found for {{user}}"
+    },
+    {
+      "id": 104,
+      "name": "Error",
+      "value": "Mention a valid url or attach a file."
     }
   ]
 }
