@@ -1,3 +1,528 @@
 {
 
+  "code": "EN",
+  "commands_config": [
+    {
+      "name": "help",
+      "description": "Long Description here",
+      "usage": "Long usage here"
+    }
+  ],
+  "bot_messages": [
+    {
+      "id": 1,
+      "name": "No permission",
+      "value": "You don't have permission to do that."
+    },
+    {
+      "id": 2,
+      "name": "Error",
+      "value": "Please mention a valid user."
+    },
+    {
+      "id": 3,
+      "name": "Error",
+      "value": "Please mention a valid role"
+    },
+    {
+      "id": 4,
+      "name": "Error",
+      "value": "There has been an error: {{error}}"
+    },
+    {
+      "id": 5,
+      "name": "Success!",
+      "value": "{{role}} has been added to {{user}}."
+    },
+    {
+      "id": 6,
+      "name": "Error",
+      "value": "That file format is not supported :("
+    },
+    {
+      "id": 7,
+      "name": "Success!",
+      "value": "I've created emoji {{emoji}}."
+    },
+    {
+      "id": 8,
+      "name": "Success!",
+      "value": "All channels [{{channels_size}}] have been locked down."
+    },
+    {
+      "id": 8,
+      "name": "Success!",
+      "value": "{{channel}} has been locked down!"
+    },
+    {
+      "id": 9,
+      "name": "Success!",
+      "value": "Emoji {{emoji}} has been deleted successfully!"
+    },
+    {
+      "id": 10,
+      "name": "Error",
+      "value": "Please mention a valid emoji."
+    },
+    {
+      "id": 11,
+      "name": "Error",
+      "value": "Emoji not found!"
+    },
+    {
+      "id": 12,
+      "name": "Error",
+      "value": "This user hasn't got that role."
+    },
+    {
+      "id": 13,
+      "name": "Success!",
+      "value": "{{role}} has been removed from {{user}}"
+    },
+    {
+      "id": 14,
+      "name": "",
+      "value": "This channel is not nsfw!"
+    },
+    {
+      "id": 15,
+      "name": "Error",
+      "value": "A prefix can't be longer than 10 characters."
+    },
+    {
+      "id": 16,
+      "name": "Success!",
+      "value": "Prefix for {{guild}} has been changed to {{prefix}}."
+    },
+    {
+      "id": 17,
+      "name": "Error",
+      "value": "Please mention a prefix."
+    },
+    {
+      "id": 18,
+      "name": "Success!",
+      "value": "BotLogs channel has now been changed to {{channel}}."
+    },
+    {
+      "id": 19,
+      "name": "Error",
+      "value": "This channel cannot be set as botlogs."
+    },
+    {
+      "id": 20,
+      "name": "Success!",
+      "value": "Initial role has been changed to <@&{{role_id}}>."
+    },
+    {
+      "id": 21,
+      "name": "Success!",
+      "value": "The leave channel has been updated to {{channel}}"
+    },
+    {
+      "id": 22,
+      "name": "Success!",
+      "value": "The leave message has been updated to {{message}} \n Please keep in mind that {user} replaces the user and {totalme} replaces the total members!"
+    },
+    {
+      "id": 23,
+      "name": "Error",
+      "value": "Please mention a valid message."
+    },
+    {
+      "id": 24,
+      "name": "Error",
+      "value": "Please specify a valid module."
+    },
+    {
+      "id": 25,
+      "name": "Error",
+      "value": "Please give a value."
+    },
+    {
+      "id": 26,
+      "name": "Success!",
+      "value": "Module {{module}} has been set to {{value}}."
+    },
+    {
+      "id": 27,
+      "name": "Success!",
+      "value": "The welcome channel has been updated to {{channel}}"
+    },
+    {
+      "id": 28,
+      "name": "Success!",
+      "value": "The welcome channel has been updated to {{channel}}"
+    },
+    {
+      "id": 29,
+      "name": "Success!",
+      "value": "The welcome message has been updated to {{message}} \n Please keep in mind that {user} replaces the user and {totalme} replaces the total members!"
+    },
+    {
+      "id": 30,
+      "name": "Success!",
+      "value": "{{channel}} has been unlocked."
+    },
+    {
+      "id": 31,
+      "name": "Success!",
+      "value": "All channels have been unlocked!"
+    },
+    {
+      "id": 32,
+      "name": "",
+      "value": "Claimed your daily ${{daily}}"
+    },
+    {
+      "id": 33,
+      "name": "",
+      "value": "You must wait ${{time}} before claiming your reward again!"
+    },
+    {
+      "id": 34,
+      "name": "You don't have enough money to do that!",
+      "value": "You need {{money}}"
+    },
+    {
+      "id": 35,
+      "name": "Success!",
+      "value": "${{money}} has been deposited in your bank account (${{tax}} tax)."
+    },
+    {
+      "id": 36,
+      "name": "Error",
+      "value": "Mention a valid amount."
+    },
+    {
+      "id": 37,
+      "name": "",
+      "value": "Claimed your hourly ${{hourly}}"
+    },
+    {
+      "id": 38,
+      "name": "",
+      "value": "Claimed your weekly ${{weekly}}"
+    },
+    {
+      "id": 39,
+      "name": "Pocket Money: ${{money}}",
+      "value": "Bank: %${{bank}}"
+    },
+    {
+      "id": 40,
+      "name": "Success!",
+      "value": "{{payer}} payed {{user}} ${{money}}"
+    },
+    {
+      "id": 41,
+      "name": "Success!",
+      "value": "${{money}} has been withdrawedoff your bank account (${{tax}} tax)."
+    },
+    {
+      "id": 42,
+      "name": "Error",
+      "value": "Please don't convert messages longer than 14 characters."
+    },
+    {
+      "id": 43,
+      "name": "",
+      "value": "Requested by {{user}}"
+    },
+    {
+      "id": 44,
+      "name": "",
+      "value": "Did you know?"
+    },
+    {
+      "id": 45,
+      "name": "",
+      "value": "Example"
+    },
+    {
+      "id": 46,
+      "name": "",
+      "value": "Upvotes"
+    },
+    {
+      "id": 47,
+      "name": "",
+      "value": "Downvotes"
+    },
+    {
+      "id": 48,
+      "name": "",
+      "value": "Author"
+    },
+    {
+      "id": 49,
+      "name": "Error",
+      "value": "Please input a region!"
+    },
+    {
+      "id": 50,
+      "name": "",
+      "value": "Lowest Temperature"
+    },
+    {
+      "id": 51,
+      "name": "",
+      "value": "Highest Temperature"
+    },
+    {
+      "id": 52,
+      "name": "",
+      "value": "Sky Appearence"
+    },
+    {
+      "id": 53,
+      "name": "",
+      "value": "Precipitation chance"
+    },
+    {
+      "id": 54,
+      "name": "",
+      "value": "Temperature"
+    },
+    {
+      "id": 55,
+      "name": "",
+      "value": "Wind Speed"
+    },
+    {
+      "id": 56,
+      "name": "",
+      "value": "Humidity"
+    },
+    {
+      "id": 57,
+      "name": "",
+      "value": "Downvotes"
+    },
+    {
+      "id": 58,
+      "name": "",
+      "value": "Info About TodoBot"
+    },
+    {
+      "id": 59,
+      "name": "",
+      "value": "Developers"
+    },
+    {
+      "id": 60,
+      "name": "",
+      "value": "Website"
+    },
+    {
+      "id": 61,
+      "name": "",
+      "value": "Library"
+    },
+    {
+      "id": 62,
+      "name": "",
+      "value": "NodeJS version"
+    },
+    {
+      "id": 63,
+      "name": "",
+      "value": "Commands"
+    },
+    {
+      "id": 64,
+      "name": "",
+      "value": "Guilds"
+    },
+    {
+      "id": 65,
+      "name": "",
+      "value": "Users"
+    },
+    {
+      "id": 66,
+      "name": "",
+      "value": "Hosting Provided by todo56.dev"
+    },
+    {
+      "id": 67,
+      "name": "",
+      "value": "Stats for command"
+    },
+    {
+      "id": 68,
+      "name": "",
+      "value": "Number of Uses"
+    },
+    {
+      "id": 69,
+      "name": "",
+      "value": "Description"
+    },
+    {
+      "id": 70,
+      "name": "",
+      "value": "Help for command {{command}}"
+    },
+    {
+      "id": 71,
+      "name": "",
+      "value": "Usage"
+    },
+    {
+      "id": 72,
+      "name": "",
+      "value": "Aliases"
+    },
+    {
+      "id": 73,
+      "name": "Not found",
+      "value": "The command {{command}} has not been found."
+    },
+    {
+      "id": 74,
+      "name": "",
+      "value": "Command Stats"
+    },
+    {
+      "id": 75,
+      "name": "",
+      "value": "These are our 10 most used commands"
+    },
+    {
+      "id": 76,
+      "name": "",
+      "value": "Thanks for adding me to your server :D"
+    },
+    {
+      "id": 77,
+      "name": "",
+      "value": "These are all my categories! [{{category_size}}]"
+    },
+    {
+      "id": 78,
+      "name": "Not found",
+      "value": "The command or alias {{command}} has not been found."
+    },
+    {
+      "id": 79,
+      "name": "Bot latency is:",
+      "value": "API latency is:"
+    },
+    {
+      "id": 80,
+      "name": "Error",
+      "value": "This user is not playing anything."
+    },
+    {
+      "id": 81,
+      "name": "",
+      "value": "Name"
+    },
+    {
+      "id": 82,
+      "name": "",
+      "value": "Mention"
+    },
+    {
+      "id": 83,
+      "name": "",
+      "value": "Color"
+    },
+    {
+      "id": 84,
+      "name": "",
+      "value": "Members"
+    },
+    {
+      "id": 85,
+      "name": "",
+      "value": "Position"
+    },
+    {
+      "id": 86,
+      "name": "",
+      "value": "Hoisted"
+    },
+    {
+      "id": 87,
+      "name": "",
+      "value": "Mentionable"
+    },
+    {
+      "id": 88,
+      "name": "",
+      "value": "Managed"
+    },
+    {
+      "id": 89,
+      "name": "",
+      "value": "Key Permissions"
+    },
+    {
+      "id": 90,
+      "name": "Success!",
+      "value": "{{user}} has been banned successfully!"
+    },
+    {
+      "id": 91,
+      "name": "",
+      "value": "Users banned"
+    },
+    {
+      "id": 93,
+      "name": "Success!",
+      "value": "Warnings for {{user}} have been deleted. Total of {{num}}"
+    },
+    {
+      "id": 94,
+      "name": "Error",
+      "value": "Please mention a valid id."
+    },
+    {
+      "id": 95,
+      "name": "Success!",
+      "value": "Warnings with id {{id}} has been deleted."
+    },
+    {
+      "id": 96,
+      "name": "Error",
+      "value": "I don't have permission to do that!"
+    },
+    {
+      "id": 97,
+      "name": "Success!",
+      "value": "{{user}} has been kicked successfully."
+    },
+    {
+      "id": 98,
+      "name": "Success!",
+      "value": "{{user}} has been muted successfully."
+    },
+    {
+      "id": 99,
+      "name": "Success!",
+      "value": "I've purged {{num}} messages successfully."
+    },
+    {
+      "id": 100,
+      "name": "Success!",
+      "value": "Mention an id please. You can get all banned ids using the command bans."
+    },
+    {
+      "id": 101,
+      "name": "Success!",
+      "value": "{{user}} has been unmuted successfully."
+    },
+    {
+      "id": 102,
+      "name": "Success!",
+      "value": "{{user}} has been warned successfully."
+    },
+    {
+      "id": 103,
+      "name": "Not found",
+      "value": "No warnings could be found for {{user}}"
+    }
+  ]
 }
