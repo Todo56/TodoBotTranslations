@@ -1,5 +1,4 @@
 {
-
   "code": "ES",
   "commands_config": [
     {
@@ -68,6 +67,7 @@
       "id": 12,
       "name": "Error",
       "value": "Emoji no encontrado."
+    },
     {
       "id": 13,
       "name": "Error",
