@@ -49,104 +49,99 @@
       "value": "All channels [{{channels_size}}] have been locked down."
     },
     {
-      "id": 8,
+      "id": 9,
       "name": "Success!",
       "value": "{{channel}} has been locked down!"
     },
     {
-      "id": 9,
+      "id": 10,
       "name": "Success!",
       "value": "Emoji {{emoji}} has been deleted successfully!"
     },
     {
-      "id": 10,
+      "id": 11,
       "name": "Error",
       "value": "Please mention a valid emoji."
     },
     {
-      "id": 11,
+      "id": 12,
       "name": "Error",
       "value": "Emoji not found!"
     },
     {
-      "id": 12,
+      "id": 13,
       "name": "Error",
       "value": "This user hasn't got that role."
     },
     {
-      "id": 13,
+      "id": 14,
       "name": "Success!",
       "value": "{{role}} has been removed from {{user}}"
     },
     {
-      "id": 14,
+      "id": 15,
       "name": "",
       "value": "This channel is not nsfw!"
     },
     {
-      "id": 15,
+      "id": 16,
       "name": "Error",
       "value": "A prefix can't be longer than 10 characters."
     },
     {
-      "id": 16,
+      "id": 17,
       "name": "Success!",
       "value": "Prefix for {{guild}} has been changed to {{prefix}}."
     },
     {
-      "id": 17,
+      "id": 18,
       "name": "Error",
       "value": "Please mention a prefix."
     },
     {
-      "id": 18,
+      "id": 19,
       "name": "Success!",
       "value": "BotLogs channel has now been changed to {{channel}}."
     },
     {
-      "id": 19,
+      "id": 20,
       "name": "Error",
       "value": "This channel cannot be set as botlogs."
     },
     {
-      "id": 20,
+      "id": 21,
       "name": "Success!",
       "value": "Initial role has been changed to <@&{{role_id}}>."
     },
     {
-      "id": 21,
+      "id": 22,
       "name": "Success!",
       "value": "The leave channel has been updated to {{channel}}"
     },
     {
-      "id": 22,
+      "id": 23,
       "name": "Success!",
       "value": "The leave message has been updated to {{message}} \n Please keep in mind that {user} replaces the user and {totalme} replaces the total members!"
     },
     {
-      "id": 23,
+      "id": 24,
       "name": "Error",
       "value": "Please mention a valid message."
     },
     {
-      "id": 24,
+      "id": 25,
       "name": "Error",
       "value": "Please specify a valid module."
     },
     {
-      "id": 25,
+      "id": 26,
       "name": "Error",
       "value": "Please give a value."
     },
     {
-      "id": 26,
-      "name": "Success!",
-      "value": "Module {{module}} has been set to {{value}}."
-    },
-    {
       "id": 27,
       "name": "Success!",
-      "value": "The welcome channel has been updated to {{channel}}"
+      "value": "Module {{module}} has been set to {{value}}."
     },
     {
       "id": 28,
@@ -156,315 +151,320 @@
     {
       "id": 29,
       "name": "Success!",
-      "value": "The welcome message has been updated to {{message}} \n Please keep in mind that {user} replaces the user and {totalme} replaces the total members!"
+      "value": "The welcome channel has been updated to {{channel}}"
     },
     {
       "id": 30,
       "name": "Success!",
-      "value": "{{channel}} has been unlocked."
+      "value": "The welcome message has been updated to {{message}} \n Please keep in mind that {user} replaces the user and {totalme} replaces the total members!"
     },
     {
       "id": 31,
       "name": "Success!",
-      "value": "All channels have been unlocked!"
+      "value": "{{channel}} has been unlocked."
     },
     {
       "id": 32,
-      "name": "",
-      "value": "Claimed your daily ${{daily}}"
+      "name": "Success!",
+      "value": "All channels have been unlocked!"
     },
     {
       "id": 33,
       "name": "",
-      "value": "You must wait ${{time}} before claiming your reward again!"
+      "value": "Claimed your daily ${{daily}}"
     },
     {
       "id": 34,
+      "name": "",
+      "value": "You must wait ${{time}} before claiming your reward again!"
+    },
+    {
+      "id": 35,
       "name": "You don't have enough money to do that!",
       "value": "You need {{money}}"
     },
     {
-      "id": 35,
+      "id": 36,
       "name": "Success!",
       "value": "${{money}} has been deposited in your bank account (${{tax}} tax)."
     },
     {
-      "id": 36,
+      "id": 37,
       "name": "Error",
       "value": "Mention a valid amount."
     },
     {
-      "id": 37,
+      "id": 38,
       "name": "",
       "value": "Claimed your hourly ${{hourly}}"
     },
     {
-      "id": 38,
+      "id": 39,
       "name": "",
       "value": "Claimed your weekly ${{weekly}}"
     },
     {
-      "id": 39,
+      "id": 40,
       "name": "Pocket Money: ${{money}}",
       "value": "Bank: %${{bank}}"
     },
     {
-      "id": 40,
+      "id": 41,
       "name": "Success!",
       "value": "{{payer}} payed {{user}} ${{money}}"
     },
     {
-      "id": 41,
+      "id": 42,
       "name": "Success!",
       "value": "${{money}} has been withdrawedoff your bank account (${{tax}} tax)."
     },
     {
-      "id": 42,
+      "id": 43,
       "name": "Error",
       "value": "Please don't convert messages longer than 14 characters."
     },
     {
-      "id": 43,
+      "id": 44,
       "name": "",
       "value": "Requested by {{user}}"
     },
     {
-      "id": 44,
+      "id": 45,
       "name": "",
       "value": "Did you know?"
     },
     {
-      "id": 45,
+      "id": 46,
       "name": "",
       "value": "Example"
     },
     {
-      "id": 46,
+      "id": 47,
       "name": "",
       "value": "Upvotes"
     },
     {
-      "id": 47,
+      "id": 48,
       "name": "",
       "value": "Downvotes"
     },
     {
-      "id": 48,
+      "id": 49,
       "name": "",
       "value": "Author"
     },
     {
-      "id": 49,
+      "id": 50,
       "name": "Error",
       "value": "Please input a region!"
     },
     {
-      "id": 50,
+      "id": 51,
       "name": "",
       "value": "Lowest Temperature"
     },
     {
-      "id": 51,
+      "id": 52,
       "name": "",
       "value": "Highest Temperature"
     },
     {
-      "id": 52,
+      "id": 53,
       "name": "",
       "value": "Sky Appearence"
     },
     {
-      "id": 53,
+      "id": 54,
       "name": "",
       "value": "Precipitation chance"
     },
     {
-      "id": 54,
+      "id": 55,
       "name": "",
       "value": "Temperature"
     },
     {
-      "id": 55,
+      "id": 56,
       "name": "",
       "value": "Wind Speed"
     },
     {
-      "id": 56,
+      "id": 57,
       "name": "",
       "value": "Humidity"
     },
     {
-      "id": 57,
+      "id": 58,
       "name": "",
       "value": "Downvotes"
     },
     {
-      "id": 58,
+      "id": 59,
       "name": "",
       "value": "Info About TodoBot"
     },
     {
-      "id": 59,
+      "id": 60,
       "name": "",
       "value": "Developers"
     },
     {
-      "id": 60,
+      "id": 61,
       "name": "",
       "value": "Website"
     },
     {
-      "id": 61,
+      "id": 62,
       "name": "",
       "value": "Library"
     },
     {
-      "id": 62,
+      "id": 63,
       "name": "",
       "value": "NodeJS version"
     },
     {
-      "id": 63,
+      "id": 64,
       "name": "",
       "value": "Commands"
     },
     {
-      "id": 64,
+      "id": 65,
       "name": "",
       "value": "Guilds"
     },
     {
-      "id": 65,
+      "id": 66,
       "name": "",
       "value": "Users"
     },
     {
-      "id": 66,
+      "id": 67,
       "name": "",
       "value": "Hosting Provided by todo56.dev"
     },
     {
-      "id": 67,
+      "id": 68,
       "name": "",
       "value": "Stats for command"
     },
     {
-      "id": 68,
+      "id": 69,
       "name": "",
       "value": "Number of Uses"
     },
     {
-      "id": 69,
+      "id": 70,
       "name": "",
       "value": "Description"
     },
     {
-      "id": 70,
+      "id": 71,
       "name": "",
       "value": "Help for command {{command}}"
     },
     {
-      "id": 71,
+      "id": 72,
       "name": "",
       "value": "Usage"
     },
     {
-      "id": 72,
+      "id": 73,
       "name": "",
       "value": "Aliases"
     },
     {
-      "id": 73,
+      "id": 74,
       "name": "Not found",
       "value": "The command {{command}} has not been found."
     },
     {
-      "id": 74,
+      "id": 75,
       "name": "",
       "value": "Command Stats"
     },
     {
-      "id": 75,
+      "id": 76,
       "name": "",
       "value": "These are our 10 most used commands"
     },
     {
-      "id": 76,
+      "id": 77,
       "name": "",
       "value": "Thanks for adding me to your server :D"
     },
     {
-      "id": 77,
+      "id": 78,
       "name": "",
       "value": "These are all my categories! [{{category_size}}]"
     },
     {
-      "id": 78,
+      "id": 79,
       "name": "Not found",
       "value": "The command or alias {{command}} has not been found."
     },
     {
-      "id": 79,
+      "id": 80,
       "name": "Bot latency is:",
       "value": "API latency is:"
     },
     {
-      "id": 80,
+      "id": 81,
       "name": "Error",
       "value": "This user is not playing anything."
     },
     {
-      "id": 81,
+      "id": 82,
       "name": "",
       "value": "Name"
     },
     {
-      "id": 82,
+      "id": 83,
       "name": "",
       "value": "Mention"
     },
     {
-      "id": 83,
+      "id": 84,
       "name": "",
       "value": "Color"
     },
     {
-      "id": 84,
+      "id": 85,
       "name": "",
       "value": "Members"
     },
     {
-      "id": 85,
+      "id": 86,
       "name": "",
       "value": "Position"
     },
     {
-      "id": 86,
+      "id": 87,
       "name": "",
       "value": "Hoisted"
     },
     {
-      "id": 87,
+      "id": 88,
       "name": "",
       "value": "Mentionable"
     },
     {
-      "id": 88,
+      "id": 89,
       "name": "",
       "value": "Managed"
     },
     {
-      "id": 89,
+      "id": 90,
       "name": "",
       "value": "Key Permissions"
     },
     {
-      "id": 90,
+      "id": 91,
       "name": "Success!",
       "value": "{{user}} has been banned successfully!"
     },
     {
-      "id": 91,
+      "id": 92,
       "name": "",
       "value": "Users banned"
     },
