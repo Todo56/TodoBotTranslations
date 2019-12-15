@@ -947,7 +947,7 @@
     {
       "id": 42,
       "name": "Success!",
-      "value": "${{money}} has been withdrawedoff your bank account (${{tax}} tax)."
+      "value": "${{money}} has been withdraw off your bank account (${{tax}} tax)."
     },
     {
       "id": 43,

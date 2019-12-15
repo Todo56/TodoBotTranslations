@@ -1,10 +1,741 @@
 {
-  "code": "EN",
+  "code": "CS",
+  "translation_info": "Words between {{}} are variables and must not be translated. Only commands description can be translated. Command ids cannot be changed under any circumstance. Links, names, ids and social media values cannot be translated either. If you have any question please message Todo56#0001 on discord or email todo@todo56.dev. Thanks for translating!",
+  "website_meta": {
+    "description": {
+      "paragraphs": [
+        "TodoBot is a discord bot made with NodeJS using the discord.js library. It's mainly based on fun commands such as music, nsfw but it has also moderation features and administration too. This bot was first called AtomicBot and was focused in NSFW content, you can find the source code of this version here. The second release of the bot was better, introducing mysql for saving data such as warnings, guild information... This version was not very stable so it ended up being abandoned on my VPS still running until recently, the 1rst of November of 2019 when I started working on this Bot.",
+        "At the moment, the bot has only 8 categories (administration, developer, fun, information, moderation, nsfw, music and XP). If you have any suggestion for the bot please submit a suggestion form here or Direct-Message me on discord: Todo56#0001."
+      ]
+    },
+    "staff_members": [
+      {
+        "name": "Todo56#0001",
+        "id": "476014121398173696",
+        "position": "Developer & Creator",
+        "description": "PHP and Javascript programmer experienced in Object-Oriented programming.",
+        "social_media": [
+          {
+            "name": "github",
+            "value": "https://github.com/Todo56"
+          },
+          {
+            "name": "email",
+            "value": "gottfried@todo56.dev"
+          }
+        ]
+      },
+      {
+        "name": "Kub_Luk#0926",
+        "id": "254287885585350666",
+        "position": "Developer & Artist",
+        "description": "",
+        "social_media": [
+          {
+            "name": "github",
+            "value": "https://github.com/KubLuk24"
+          },
+          {
+            "name": "instagram",
+            "value": "https://instagram.com/kub_luk24/"
+          }
+        ]
+      }
+    ]
+  },
   "commands_config": [
     {
+      "name": "ban",
+      "description": "Bans a user.",
+      "usage": "ban (user) <time/reason> <reason>",
+      "category": "moderation",
+      "aliases": []
+    },
+    {
+      "name": "bans",
+      "description": "Shows all the bans in your server.",
+      "usage": "bans",
+      "category": "moderation",
+      "aliases": [
+        "banes"
+      ]
+    },
+    {
+      "name": "clearwarns",
+      "description": "Clears warnings for the user mentioned.",
+      "usage": "clearwarns [user]",
+      "category": "moderation",
+      "aliases": [
+        "cwarns"
+      ]
+    },
+    {
+      "name": "delwarn",
+      "description": "Removes a warning.",
+      "usage": "delwarn [id]",
+      "category": "moderation",
+      "aliases": [
+        "remwarn"
+      ]
+    },
+    {
+      "name": "kick",
+      "description": "Kicks a user.",
+      "usage": "kick (user) <reason>",
+      "category": "moderation",
+      "aliases": []
+    },
+    {
+      "name": "mute",
+      "description": "Mutes a user.",
+      "usage": "mute (user) <time/reason> <reason>",
+      "aliases": []
+    },
+    {
+      "name": "purge",
+      "description": "Deletes the amount of messages specified.",
+      "usage": "purge [number of messages]",
+      "category": "moderation",
+      "aliases": [
+        "clear"
+      ]
+    },
+    {
+      "name": "unban",
+      "description": "Unbans an id.",
+      "usage": "unban [id]",
+      "category": "moderation",
+      "aliases": [
+        "uban"
+      ]
+    },
+    {
+      "name": "unmute",
+      "description": "Unmutes a user.",
+      "usage": "unmute (user)",
+      "aliases": []
+    },
+    {
+      "name": "warn",
+      "description": "Warns a user",
+      "usage": "/warn [user] [reason]",
+      "category": "moderation",
+      "aliases": []
+    },
+    {
+      "name": "warnings",
+      "description": "Sends the warnings of a user for the guild.",
+      "usage": "warnings [user]",
+      "category": "moderation",
+      "aliases": [
+        "warns"
+      ]
+    },
+    {
+      "name": "botinfo",
+      "description": "Sends information about the bot.",
+      "usage": "botinfo",
+      "category": "information",
+      "aliases": [
+        "binfo"
+      ]
+    },
+    {
+      "name": "cmdstats",
+      "description": "Sends the 10 most used commands.",
+      "usage": "cmdstats [command]",
+      "category": "information",
+      "aliases": []
+    },
+    {
+      "name": "emoji",
+      "description": "Shows the image of an emoji.",
+      "usage": "emoji [emoji/id/name]",
+      "category": "information",
+      "aliases": [
+        "e"
+      ]
+    },
+    {
       "name": "help",
-      "description": "Long Description here",
-      "usage": "Long usage here"
+      "description": "Returns the bots ping and shit",
+      "usage": "help [command]",
+      "category": "information",
+      "aliases": [
+        "h"
+      ]
+    },
+    {
+      "name": "ping",
+      "description": "Returns the bot's and api's latency in ms.",
+      "usage": "ping",
+      "category": "information",
+      "aliases": [
+        "pong"
+      ]
+    },
+    {
+      "name": "presence",
+      "description": "Shows info about someones presence.",
+      "usage": "presence [mention/id]",
+      "category": "information",
+      "aliases": [
+        "game"
+      ]
+    },
+    {
+      "name": "roleinfo",
+      "description": "Returns basic info about the role.",
+      "usage": "roleinfo [role]",
+      "category": "information",
+      "aliases": [
+        "rinfo"
+      ]
+    },
+    {
+      "name": "server",
+      "description": "Shows server info.",
+      "usage": "server",
+      "category": "information",
+      "aliases": []
+    },
+    {
+      "name": "specs",
+      "description": "Sends information about the device the bot is running on.",
+      "usage": "specs",
+      "category": "information",
+      "aliases": []
+    },
+    {
+      "name": "userinfo",
+      "description": "Returns basic info about the user.",
+      "usage": "userinfo [user mention | user id]",
+      "category": "information",
+      "aliases": [
+        "uinfo"
+      ]
+    },
+    {
+      "name": "exec",
+      "description": "Executes a command on the terminal.",
+      "usage": "exec [command]",
+      "category": "developer",
+      "aliases": []
+    },
+    {
+      "name": "resetstats",
+      "description": "Resets all command stats.",
+      "usage": "resetstas",
+      "category": "developer",
+      "aliases": []
+    },
+    {
+      "name": "savetranslations",
+      "description": "Save all languages.",
+      "usage": "savetranslations <lang>",
+      "category": "developer",
+      "aliases": []
+    },
+    {
+      "name": "anal",
+      "description": "Sends a picture or gif of an anal scene.",
+      "usage": "anal",
+      "category": "nsfw",
+      "aliases": [
+        "an"
+      ]
+    },
+    {
+      "name": "asiangonewild",
+      "description": "Sends an asian gonewild picture or gif.",
+      "usage": "asiangonewild",
+      "category": "nsfw",
+      "aliases": [
+        "agonewild"
+      ]
+    },
+    {
+      "name": "ass",
+      "description": "Sends a picture or gif of an ass.",
+      "usage": "ass",
+      "category": "nsfw",
+      "aliases": [
+        "as"
+      ]
+    },
+    {
+      "name": "boobs",
+      "description": "Sends a picture or gif of boobs.",
+      "usage": "boobs",
+      "category": "nsfw",
+      "aliases": []
+    },
+    {
+      "name": "creampie",
+      "description": "Sends a picture or gif of a creampie scene.",
+      "usage": "creampie",
+      "category": "nsfw",
+      "aliases": []
+    },
+    {
+      "name": "cum",
+      "description": "Sends a picture or gif of cum.",
+      "usage": "Cum",
+      "category": "nsfw",
+      "aliases": []
+    },
+    {
+      "name": "cute",
+      "description": "Sends a cute picture or gif.",
+      "usage": "cute",
+      "category": "nsfw",
+      "aliases": []
+    },
+    {
+      "name": "gonewild",
+      "description": "Sends a gonewild picture or gif.",
+      "usage": "gonewild",
+      "category": "nsfw",
+      "aliases": []
+    },
+    {
+      "name": "hentai",
+      "description": "Sends a hentai picture or gif.",
+      "usage": "hentai",
+      "category": "nsfw",
+      "aliases": []
+    },
+    {
+      "name": "hentaiheaven",
+      "description": "Sends a hentai video and preview of https://hentaihaven.org/",
+      "usage": "hentaiheaven",
+      "category": "nsfw",
+      "aliases": [
+        "hh"
+      ]
+    },
+    {
+      "name": "meme",
+      "description": "Sends a reddit meme",
+      "usage": "meme",
+      "category": "nsfw",
+      "aliases": [
+        "memes"
+      ]
+    },
+    {
+      "name": "nsfw",
+      "description": "Sends a nsfw picture or gif.",
+      "usage": "nsfw",
+      "category": "nsfw",
+      "aliases": []
+    },
+    {
+      "name": "porngif",
+      "description": "Sends a porn gif from http://porn.gifland.us/",
+      "usage": "porngif",
+      "category": "nsfw",
+      "aliases": []
+    },
+    {
+      "name": "pussy",
+      "description": "Sends a picture or gif of a pussy.",
+      "usage": "pussy",
+      "category": "nsfw",
+      "aliases": [
+        "pus"
+      ]
+    },
+    {
+      "name": "realgirls",
+      "description": "Sends a realgirls picture or gif.",
+      "usage": "realgirls",
+      "category": "nsfw",
+      "aliases": []
+    },
+    {
+      "name": "rule34",
+      "description": "Sends a hentai/comic picture or gif.",
+      "usage": "rule34",
+      "category": "nsfw",
+      "aliases": [
+        "r34"
+      ]
+    },
+    {
+      "name": "addrole",
+      "description": "Adds a role to a user.",
+      "usage": "addrole [user] [role/id/name]",
+      "category": "administration",
+      "aliases": []
+    },
+    {
+      "name": "createemoji",
+      "description": "Adds an emoji.",
+      "usage": "createemoji [url/attachment] <name>",
+      "category": "administration",
+      "aliases": [
+        "addemoji"
+      ]
+    },
+    {
+      "name": "lockdown",
+      "description": "Locks down the server or the server for a detailed amount of time.",
+      "usage": "ddd",
+      "category": "administration",
+      "aliases": [
+        "lock"
+      ]
+    },
+    {
+      "name": "modules",
+      "description": "Shows all modules.",
+      "usage": "modules",
+      "category": "administration",
+      "aliases": [
+        "m"
+      ]
+    },
+    {
+      "name": "rememoji",
+      "description": "Removes an emoji.",
+      "usage": "rememoji [name/id/emoji]",
+      "category": "administration",
+      "aliases": [
+        "removeemoji",
+        "delemoji",
+        "deleteemoji"
+      ]
+    },
+    {
+      "name": "remrole",
+      "description": "Removes a role from a user.",
+      "usage": "remrole [user] [role/id/name]",
+      "category": "administration",
+      "aliases": []
+    },
+    {
+      "name": "set",
+      "description": "Sets something that you have specified.",
+      "usage": "set...",
+      "category": "administration",
+      "aliases": [
+        "s"
+      ]
+    },
+    {
+      "name": "setlanguage",
+      "description": "Sets the bot's language.",
+      "usage": "setlanguage [ISO CODE]",
+      "category": "administration",
+      "aliases": [
+        "setlang"
+      ]
+    },
+    {
+      "name": "setleavechannel",
+      "description": "Sets the leave message channel.",
+      "usage": "setleavechannel",
+      "category": "administration",
+      "aliases": [
+        "setleachan",
+        "setlc"
+      ]
+    },
+    {
+      "name": "setleavemessage",
+      "description": "Sets the leave message.",
+      "usage": "setleavemessage [message]",
+      "category": "administration",
+      "aliases": [
+        "setleamsg",
+        "setlm"
+      ]
+    },
+    {
+      "name": "setlogs",
+      "description": "Sets the current channel as botlogs.",
+      "usage": "setlogs",
+      "category": "administration",
+      "aliases": [
+        "botlogs"
+      ]
+    },
+    {
+      "name": "setmodule",
+      "description": "Sets a module as true or false.",
+      "usage": "setmodule [module] [true/false]",
+      "category": "administration",
+      "aliases": [
+        "sm"
+      ]
+    },
+    {
+      "name": "setprefix",
+      "description": "Sets the prefix for your guild.",
+      "usage": "setprefix [prefix]",
+      "category": "administration",
+      "aliases": [
+        "sp"
+      ]
+    },
+    {
+      "name": "setwelcomechannel",
+      "description": "Sets the welcome message channel.",
+      "usage": "setwelcomechannel",
+      "category": "administration",
+      "aliases": [
+        "setwelchan",
+        "setwc"
+      ]
+    },
+    {
+      "name": "setwelcomemessage",
+      "description": "Sets the welcome message.",
+      "usage": "setwelcomemessage [message]",
+      "category": "administration",
+      "aliases": [
+        "setwelmsg",
+        "setwm"
+      ]
+    },
+    {
+      "name": "unlock",
+      "description": "Unlocks a channel.",
+      "usage": "unlock [all/channel]",
+      "category": "administration",
+      "aliases": []
+    },
+    {
+      "name": "leaderboard",
+      "description": "Shows the global Leaderboard",
+      "usage": "leaderboard",
+      "category": "xp",
+      "aliases": [
+        "lb"
+      ]
+    },
+    {
+      "name": "level",
+      "description": "Shows your Level and Xp.",
+      "usage": "level [user]",
+      "category": "xp",
+      "aliases": [
+        "lvl",
+        "xp"
+      ]
+    },
+    {
+      "name": "lyrics",
+      "description": "Sends a song's lyrics.",
+      "usage": "lyrics [song name]",
+      "category": "music",
+      "aliases": [
+        "l"
+      ]
+    },
+    {
+      "name": "np",
+      "description": "Sends the song currently playing.",
+      "usage": "np",
+      "category": "music",
+      "aliases": []
+    },
+    {
+      "name": "play",
+      "description": "Plays a song.",
+      "usage": "play [song]",
+      "category": "music",
+      "aliases": [
+        "p"
+      ]
+    },
+    {
+      "name": "queue",
+      "description": "Show's the queue for the current guild.",
+      "usage": "queue",
+      "category": "music",
+      "aliases": [
+        "q"
+      ]
+    },
+    {
+      "name": "setvolume",
+      "description": "Sets the bot's volume when playing music.",
+      "usage": "setvolume [num]",
+      "category": "music",
+      "aliases": [
+        "sv"
+      ]
+    },
+    {
+      "name": "skip",
+      "description": "Skips the song currently playing.",
+      "usage": "skip",
+      "category": "music",
+      "aliases": [
+        "s"
+      ]
+    },
+    {
+      "name": "songinfo",
+      "description": "Sends a song's information.",
+      "usage": "songinfo [song name]",
+      "category": "music",
+      "aliases": [
+        "si"
+      ]
+    },
+    {
+      "name": "stop",
+      "description": "Stops the song that's currently playing.",
+      "usage": "stop",
+      "category": "music",
+      "aliases": [
+        "disconnect",
+        "dis"
+      ]
+    },
+    {
+      "name": "ascii",
+      "description": "Sends the input text back to you with ascii.",
+      "usage": "ascii [text]",
+      "category": "fun",
+      "aliases": []
+    },
+    {
+      "name": "chucknorris",
+      "description": "Sends a Chuck Norris Joke.",
+      "usage": "chucknorris",
+      "category": "fun",
+      "aliases": [
+        "chucknorris",
+        "cn"
+      ]
+    },
+    {
+      "name": "forecast",
+      "description": "Sends the forecast of the next 5 days.",
+      "usage": "forecast <city> <country>",
+      "category": "fun",
+      "aliases": [
+        "forec"
+      ]
+    },
+    {
+      "name": "gordonramsay",
+      "description": "Joins a voice channel and plays a Gordon Ramsay insult.",
+      "usage": "gordonramsay [volume]",
+      "category": "fun",
+      "aliases": [
+        "gr"
+      ]
+    },
+    {
+      "name": "numfact",
+      "description": "Sends a number fact.",
+      "usage": "numfact <number>",
+      "category": "fun",
+      "aliases": [
+        "numberfact",
+        "nf"
+      ]
+    },
+    {
+      "name": "programmermeme",
+      "description": "Sends a r/ProgrammingHumor meme",
+      "usage": "programmermeme",
+      "category": "fun",
+      "aliases": [
+        "promeme"
+      ]
+    },
+    {
+      "name": "randomfact",
+      "description": "Sends a random fact.",
+      "usage": "randomfact",
+      "category": "fun",
+      "aliases": [
+        "rf"
+      ]
+    },
+    {
+      "name": "urban",
+      "description": "Searches a word on UrbanDictionary",
+      "usage": "urban [words]",
+      "category": "fun",
+      "aliases": []
+    },
+    {
+      "name": "weather",
+      "description": "Shows the current weather for a region.",
+      "usage": "weather [region] [country]",
+      "category": "fun",
+      "aliases": [
+        "w"
+      ]
+    },
+    {
+      "name": "daily",
+      "description": "Claim your daily reward.",
+      "usage": "daily",
+      "category": "economy",
+      "aliases": []
+    },
+    {
+      "name": "deposit",
+      "description": "Deposits money on your bank so it doesn't get stolen (costs money).",
+      "usage": "deposit [money]",
+      "category": "economy",
+      "aliases": []
+    },
+    {
+      "name": "hourly",
+      "description": "Claim your hourly reward.",
+      "usage": "hourly ",
+      "category": "economy",
+      "aliases": []
+    },
+    {
+      "name": "money",
+      "description": "Shows the money you currently have.",
+      "usage": "money <user>",
+      "category": "economy",
+      "aliases": [
+        "mymoney",
+        "bal",
+        "balance"
+      ]
+    },
+    {
+      "name": "pay",
+      "description": "Pay a user a desired ammount of money.",
+      "usage": "pay [user] [money]",
+      "category": "economy",
+      "aliases": [
+        "donate"
+      ]
+    },
+    {
+      "name": "weekly",
+      "description": "Claim your weekly reward.",
+      "usage": "weekly",
+      "category": "economy",
+      "aliases": []
+    },
+    {
+      "name": "withdraw",
+      "description": "Takes money off your bank so you can do stuff with it (costs money).",
+      "usage": "withdraw [money]",
+      "category": "economy",
+      "aliases": []
+    },
+    {
+      "name": "work",
+      "description": "Work and get money for it.",
+      "usage": "work",
+      "category": "economy",
+      "aliases": []
     }
   ],
   "bot_messages": [
@@ -206,7 +937,7 @@
     {
       "id": 40,
       "name": "Peníze v peněžence: ${{money}}",
-      "value": "Banka: %${{bank}}"
+      "value": "Banka: ${{bank}}"
     },
     {
       "id": 41,
@@ -522,6 +1253,36 @@
       "id": 103,
       "name": "Nenalezeno",
       "value": "Nebyly nalezené žádné záznamy pro uživatele {{user}}"
+    },
+    {
+      "id": 104,
+      "name": "Error",
+      "value": "Mention a valid url or attach a file."
+    },
+    {
+      "id": 105,
+      "name": "Error",
+      "value": "That language isn't available yet. You can help translating by joining our translation team!"
+    },
+    {
+      "id": 106,
+      "name": "Error",
+      "value": "Please mention a valid language."
+    },
+    {
+      "id": 107,
+      "name": "Success!",
+      "value": "Language has been set to {{lang}}."
+    },
+    {
+      "id": 108,
+      "name": "Notice",
+      "value": "If the botlogs module isn't active punishments won't be logged. Use the command `setmodule botlogs true` to enable it."
+    },
+    {
+      "id": 109,
+      "name": "Error",
+      "value": "That module doesn't exist! Check all our modules using the command `modules`."
     }
   ]
 }
