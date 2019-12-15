@@ -4,7 +4,7 @@
   "website_meta": {
     "description": {
       "paragraphs": [
-        "TodoBot is a discord bot made with NodeJS using the discord.js library. It's mainly based on fun commands such as music, nsfw but it has also moderation features and administration too. This bot was first called AtomicBot and was focused in NSFW content, you can find the source code of this version here. The second release of the bot was better, introducing mysql for saving data such as warnings, guild information... This version was not very stable so it ended up being abandoned on my VPS still running until recently, the 1rst of November of 2019 when I started working on this Bot.",
+        "TodoBot es un bot de discord hecho con NodeJS usando la librería discord.js. El bot esta basado en comandos de entretenimiento como de musica, NSFW pero también incluye comandos para moderar el servidor y administrarlo también. Este bot se llamaba inicialmente AtomicBot y estaba centrado más en contenido NSFW, puedes encontrar el código del bot <a href='https://github.com/Todo56/Atomic-Bot'>aqui</a>.La segunda versión del bot era mejor, introduciendo MySQL para guardar información como avisos, información de cada servidor... This version was not very stable so it ended up being abandoned on my VPS still running until recently, the 1rst of November of 2019 when I started working on this Bot.",
         "At the moment, the bot has only 8 categories (administration, developer, fun, information, moderation, nsfw, music and XP). If you have any suggestion for the bot please submit a suggestion form here or Direct-Message me on discord: Todo56#0001."
       ]
     },
@@ -12,8 +12,8 @@
       {
         "name": "Todo56#0001",
         "id": "476014121398173696",
-        "position": "Developer & Creator",
-        "description": "PHP and Javascript programmer experienced in Object-Oriented programming.",
+        "position": "Desarrollador, Creador & Traductor al Español",
+        "description": "Desarrollador de PHP y JavaScript experienciado en programación Object-Oriented.",
         "social_media": [
           {
             "name": "github",
@@ -46,14 +46,14 @@
   "commands_config": [
     {
       "name": "ban",
-      "description": "Bans a user.",
+      "description": "Banea a un usuario del servidor.",
       "usage": "ban (user) <time/reason> <reason>",
       "category": "moderation",
       "aliases": []
     },
     {
       "name": "bans",
-      "description": "Shows all the bans in your server.",
+      "description": "Muestra todos los baneos de tu servidor.",
       "usage": "bans",
       "category": "moderation",
       "aliases": [
@@ -866,8 +866,8 @@
     },
     {
       "id": 26,
-      "name": "Error",
-      "value": "Porfabor introduzca un valor."
+      "name": "Éxito!",
+      "value": "El módulo {{module}} ha sido actualizado a {{value}}."
     },
     {
       "id": 27,
@@ -1273,6 +1273,16 @@
       "id": 107,
       "name": "Success!",
       "value": "Language has been set to {{lang}}."
+    },
+    {
+      "id": 108,
+      "name": "Notice",
+      "value": "If the botlogs module isn't active punishments won't be logged. Use the command `setmodule botlogs true` to enable it."
+    },
+    {
+      "id": 109,
+      "name": "Error",
+      "value": "That module doesn't exist! Check all our modules using the command `modules`."
     }
   ]
 }
