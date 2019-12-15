@@ -10,523 +10,518 @@
   "bot_messages": [
     {
       "id": 1,
-      "name": "No permission",
-      "value": "You don't have permission to do that."
+      "name": "Nedostatečné oprávnění",
+      "value": "Pro tuto akci nemáte dostatečné oprávnění."
     },
     {
       "id": 2,
-      "name": "Error",
-      "value": "Please mention a valid user."
+      "name": "Chyba",
+      "value": "Prosím, označte reálného uživatele."
     },
     {
       "id": 3,
-      "name": "Error",
-      "value": "Please mention a valid role"
+      "name": "Chyba",
+      "value": "Prosím, označte reálnou roli."
     },
     {
       "id": 4,
-      "name": "Error",
-      "value": "There has been an error: {{error}}"
+      "name": "Chyba",
+      "value": "Nastali chyba: {{error}}"
     },
     {
       "id": 5,
-      "name": "Success!",
-      "value": "{{role}} has been added to {{user}}."
+      "name": "Úspěch!",
+      "value": "Uživatel {{user}} obdržel roli {{role}}."
     },
     {
       "id": 6,
-      "name": "Error",
-      "value": "That file format is not supported :("
+      "name": "Chyba",
+      "value": "Tento formát souboru není podporován :("
     },
     {
       "id": 7,
-      "name": "Success!",
-      "value": "I've created emoji {{emoji}}."
+      "name": "Úspěch!",
+      "value": "Byl vytvořen smajlík {{emoji}}."
     },
     {
       "id": 8,
-      "name": "Success!",
-      "value": "All channels [{{channels_size}}] have been locked down."
+      "name": "Úspěch!",
+      "value": "Všechny kanály [{{channels_size}}] byly uzamčeny."
     },
     {
       "id": 9,
-      "name": "Success!",
-      "value": "{{channel}} has been locked down!"
+      "name": "Úspěch!",
+      "value": "Kanál {{channel}} byl uzamčen!"
     },
     {
       "id": 10,
-      "name": "Success!",
-      "value": "Emoji {{emoji}} has been deleted successfully!"
+      "name": "Úspěch!",
+      "value": "Smajlík {{emoji}} byl smazán!"
     },
     {
       "id": 11,
-      "name": "Error",
-      "value": "Please mention a valid emoji."
+      "name": "Chyba",
+      "value": "Prosím, označte reálného smajlíka."
     },
     {
       "id": 12,
-      "name": "Error",
-      "value": "Emoji not found!"
+      "name": "Chyba",
+      "value": "Smajlík nenalezen!"
     },
     {
       "id": 13,
-      "name": "Error",
-      "value": "This user hasn't got that role."
+      "name": "Chyba",
+      "value": "Tento uživatel nemá požadovanou roli."
     },
     {
       "id": 14,
-      "name": "Success!",
-      "value": "{{role}} has been removed from {{user}}"
+      "name": "Úspěch!",
+      "value": "Role {{role}} byla odstraněna od uživatele {{user}}"
     },
     {
       "id": 15,
       "name": "",
-      "value": "This channel is not nsfw!"
+      "value": "Tento kanál není označen jako nsfw!"
     },
     {
       "id": 16,
-      "name": "Error",
-      "value": "A prefix can't be longer than 10 characters."
+      "name": "Chyba",
+      "value": "Prefix nemůže být delší než 10 písmen."
     },
     {
       "id": 17,
-      "name": "Success!",
-      "value": "Prefix for {{guild}} has been changed to {{prefix}}."
+      "name": "Úspěch!",
+      "value": "Prefix pro {{guild}} byl změněn na {{prefix}}."
     },
     {
       "id": 18,
-      "name": "Error",
-      "value": "Please mention a prefix."
+      "name": "Chyba",
+      "value": "Prosím, zmiňte prefix."
     },
     {
       "id": 19,
-      "name": "Success!",
-      "value": "BotLogs channel has now been changed to {{channel}}."
+      "name": "Úspěch!",
+      "value": "Log kanál byl nastaven na {{channel}}."
     },
     {
       "id": 20,
-      "name": "Error",
-      "value": "This channel cannot be set as botlogs."
+      "name": "Chyba",
+      "value": "Tento kanál nemůže být nastaven jako log."
     },
     {
       "id": 21,
-      "name": "Success!",
-      "value": "Initial role has been changed to <@&{{role_id}}>."
+      "name": "Úspěch!",
+      "value": "Startovací role byla nastavena na <@&{{role_id}}>."
     },
     {
       "id": 22,
-      "name": "Success!",
-      "value": "The leave channel has been updated to {{channel}}"
+      "name": "Úspěch!",
+      "value": "Kanál pro zprávy opuštění serveru byl nastaven na {{channel}}"
     },
     {
       "id": 23,
-      "name": "Success!",
-      "value": "The leave message has been updated to {{message}} \n Please keep in mind that {user} replaces the user and {totalme} replaces the total members!"
+      "name": "Úspěch!",
+      "value": "Zpráva při opuštění serveru byla nastavena na {{message}} \n Prosím pamatujte si, že {user} bude nahrazen tagem uživatele a {totalme} bude nahrazen aktuálním počtem členů serveru!"
     },
     {
       "id": 24,
-      "name": "Error",
-      "value": "Please mention a valid message."
+      "name": "Chyba",
+      "value": "Prosím napište reálnou zprávu."
     },
     {
       "id": 25,
-      "name": "Error",
-      "value": "Please specify a valid module."
+      "name": "Chyba",
+      "value": "Prosím, specifikujte reálný modul."
     },
     {
       "id": 26,
-      "name": "Error",
-      "value": "Please give a value."
+      "name": "Chyba",
+      "value": "Prosím, poskytněte hodnotu."
     },
     {
       "id": 27,
-      "name": "Success!",
-      "value": "Module {{module}} has been set to {{value}}."
+      "name": "Úspěch!",
+      "value": "Modul {{module}} byl nastaven na {{value}}."
     },
     {
       "id": 28,
-      "name": "Success!",
-      "value": "The welcome channel has been updated to {{channel}}"
+      "name": "Úspěch!",
+      "value": "Kanál pro zprávy příchozích členů byl nastaven na {{channel}}"
     },
     {
       "id": 29,
-      "name": "Success!",
-      "value": "The welcome channel has been updated to {{channel}}"
+      "name": "Úspěch!",
+      "value": "Kanál pro zprávy příchozích členů byl nastaven na {{channel}}"
     },
     {
       "id": 30,
-      "name": "Success!",
-      "value": "The welcome message has been updated to {{message}} \n Please keep in mind that {user} replaces the user and {totalme} replaces the total members!"
+      "name": "Úspěch!",
+      "value": "Zpráva při připojení uživatele byla nastavena na {{message}} \n Prosím, mějte na paměti, že {user} bude nahrazen tagem uživatele a {totalme} bude nahrazen kompletním počtem uživatelů serveru!"
     },
     {
       "id": 31,
-      "name": "Success!",
-      "value": "{{channel}} has been unlocked."
+      "name": "Úspěch!",
+      "value": "{{channel}} byl odemčen."
     },
     {
       "id": 32,
-      "name": "Success!",
-      "value": "All channels have been unlocked!"
+      "name": "Úspěch!",
+      "value": "Všechny kanály byly odemčeny!"
     },
     {
       "id": 33,
       "name": "",
-      "value": "Claimed your daily ${{daily}}"
+      "value": "Vyzvedli jste si svojí denní odměnu ${{daily}}"
     },
     {
       "id": 34,
       "name": "",
-      "value": "You must wait ${{time}} before claiming your reward again!"
+      "value": "Musíte počkat ještě ${{time}} než si budete moci vyzvednout svoji denní odměnu!"
     },
     {
       "id": 35,
-      "name": "You don't have enough money to do that!",
-      "value": "You need {{money}}"
+      "name": "Nemáte dostatek peněz na provedení akce!",
+      "value": "Potřebujete {{money}}"
     },
     {
       "id": 36,
-      "name": "Success!",
-      "value": "${{money}} has been deposited in your bank account (${{tax}} tax)."
+      "name": "Úspěch!",
+      "value": "${{money}} bylo vloženo na váš bankovní účet (${{tax}} tax)."
     },
     {
       "id": 37,
-      "name": "Error",
-      "value": "Mention a valid amount."
+      "name": "Chyba",
+      "value": "Prosím, uveďte reálné množství."
     },
     {
       "id": 38,
       "name": "",
-      "value": "Claimed your hourly ${{hourly}}"
+      "value": "Vyzvedli jste si svojí odměnu za tuto hodinu ${{hourly}}"
     },
     {
       "id": 39,
       "name": "",
-      "value": "Claimed your weekly ${{weekly}}"
+      "value": "Vyzvedli jste si svojí týdenní odměnu ${{weekly}}"
     },
     {
       "id": 40,
-      "name": "Pocket Money: ${{money}}",
-      "value": "Bank: %${{bank}}"
+      "name": "Peníze v peněžence: ${{money}}",
+      "value": "Banka: %${{bank}}"
     },
     {
       "id": 41,
-      "name": "Success!",
-      "value": "{{payer}} payed {{user}} ${{money}}"
+      "name": "Úspěch!",
+      "value": "{{payer}} zaplatil {{user}} ${{money}}"
     },
     {
       "id": 42,
-      "name": "Success!",
-      "value": "${{money}} has been withdrawedoff your bank account (${{tax}} tax)."
+      "name": "Úspěch!",
+      "value": "${{money}} bylo vybráno z tvého bankovního účtu (${{tax}} tax)."
     },
     {
       "id": 43,
-      "name": "Error",
-      "value": "Please don't convert messages longer than 14 characters."
+      "name": "Chyba",
+      "value": "Prosím nekonvertujte zprávu delší než 14 znaků."
     },
     {
       "id": 44,
       "name": "",
-      "value": "Requested by {{user}}"
+      "value": "Vyžádáno uživatelem {{user}}"
     },
     {
       "id": 45,
       "name": "",
-      "value": "Did you know?"
+      "value": "Věděli jste že?"
     },
     {
       "id": 46,
       "name": "",
-      "value": "Example"
+      "value": "Náhled"
     },
     {
       "id": 47,
       "name": "",
-      "value": "Upvotes"
+      "value": "Upvoty"
     },
     {
       "id": 48,
       "name": "",
-      "value": "Downvotes"
+      "value": "Downvoty"
     },
     {
       "id": 49,
       "name": "",
-      "value": "Author"
+      "value": "Autor"
     },
     {
       "id": 50,
-      "name": "Error",
-      "value": "Please input a region!"
+      "name": "Chyba",
+      "value": "Prosím, zmiňte region!"
     },
     {
       "id": 51,
       "name": "",
-      "value": "Lowest Temperature"
+      "value": "Nejnižší tepolota"
     },
     {
       "id": 52,
       "name": "",
-      "value": "Highest Temperature"
+      "value": "Nejvyšší teplota"
     },
     {
       "id": 53,
       "name": "",
-      "value": "Sky Appearence"
+      "value": "Vzhled oblohy"
     },
     {
       "id": 54,
       "name": "",
-      "value": "Precipitation chance"
+      "value": "Pravděpodobnost srážek"
     },
     {
       "id": 55,
       "name": "",
-      "value": "Temperature"
+      "value": "teplota"
     },
     {
       "id": 56,
       "name": "",
-      "value": "Wind Speed"
+      "value": "Rychlost větru"
     },
     {
       "id": 57,
       "name": "",
-      "value": "Humidity"
+      "value": "vlhkost"
     },
     {
       "id": 58,
       "name": "",
-      "value": "Downvotes"
+      "value": "Downvoty"
     },
     {
       "id": 59,
       "name": "",
-      "value": "Info About TodoBot"
+      "value": "Inforace o TodoBot"
     },
     {
       "id": 60,
       "name": "",
-      "value": "Developers"
+      "value": "Developeři"
     },
     {
       "id": 61,
       "name": "",
-      "value": "Website"
+      "value": "Webová stránka"
     },
     {
       "id": 62,
       "name": "",
-      "value": "Library"
+      "value": "Knihovna"
     },
     {
       "id": 63,
       "name": "",
-      "value": "NodeJS version"
+      "value": "Verze NodeJS"
     },
     {
       "id": 64,
       "name": "",
-      "value": "Commands"
+      "value": "Příkazy"
     },
     {
       "id": 65,
       "name": "",
-      "value": "Guilds"
+      "value": "Servery"
     },
     {
       "id": 66,
       "name": "",
-      "value": "Users"
+      "value": "Uživatelé"
     },
     {
       "id": 67,
       "name": "",
-      "value": "Hosting Provided by todo56.dev"
+      "value": "Hosting poskytuje todo56.dev"
     },
     {
       "id": 68,
       "name": "",
-      "value": "Stats for command"
+      "value": "Statistiky pro příkaz"
     },
     {
       "id": 69,
       "name": "",
-      "value": "Number of Uses"
+      "value": "Počet použití"
     },
     {
       "id": 70,
       "name": "",
-      "value": "Description"
+      "value": "Popisek"
     },
     {
       "id": 71,
       "name": "",
-      "value": "Help for command {{command}}"
+      "value": "Pomoc pro příkaz {{command}}"
     },
     {
       "id": 72,
       "name": "",
-      "value": "Usage"
+      "value": "Použítí"
     },
     {
       "id": 73,
       "name": "",
-      "value": "Aliases"
+      "value": "Aliasy"
     },
     {
       "id": 74,
-      "name": "Not found",
-      "value": "The command {{command}} has not been found."
+      "name": "Nenalezeno",
+      "value": "Příkaz {{command}} nebyl nalezen."
     },
     {
       "id": 75,
       "name": "",
-      "value": "Command Stats"
+      "value": "Statistiky příkazu"
     },
     {
       "id": 76,
       "name": "",
-      "value": "These are our 10 most used commands"
+      "value": "10 nejpoužívanějších příkazů"
     },
     {
       "id": 77,
       "name": "",
-      "value": "Thanks for adding me to your server :D"
+      "value": "Děkuji vám, že jste mě přidali na váš server :D"
     },
     {
       "id": 78,
       "name": "",
-      "value": "These are all my categories! [{{category_size}}]"
+      "value": "Toto jsou všechny kategorie! [{{category_size}}]"
     },
     {
       "id": 79,
-      "name": "Not found",
-      "value": "The command or alias {{command}} has not been found."
+      "name": "Nenalezeno",
+      "value": "Příkaz nebo alias {{command}} nebyl nalezen."
     },
     {
       "id": 80,
-      "name": "Bot latency is:",
-      "value": "API latency is:"
+      "name": "Zpoždění bota:",
+      "value": "Zpoždění API:"
     },
     {
       "id": 81,
-      "name": "Error",
-      "value": "This user is not playing anything."
+      "name": "Chyba",
+      "value": "Tento uživatel nehraje žádnou hru."
     },
     {
       "id": 82,
       "name": "",
-      "value": "Name"
+      "value": "Jméno"
     },
     {
       "id": 83,
       "name": "",
-      "value": "Mention"
+      "value": "Zmínka"
     },
     {
       "id": 84,
       "name": "",
-      "value": "Color"
+      "value": "Barva"
     },
     {
       "id": 85,
       "name": "",
-      "value": "Members"
+      "value": "Uživatelé"
     },
     {
       "id": 86,
       "name": "",
-      "value": "Position"
+      "value": "Pozice"
     },
     {
       "id": 87,
       "name": "",
-      "value": "Hoisted"
+      "value": "Vztyčení"
     },
     {
       "id": 88,
       "name": "",
-      "value": "Mentionable"
+      "value": "Zmiňovatelný"
     },
     {
       "id": 89,
       "name": "",
-      "value": "Managed"
+      "value": "Spravování"
     },
     {
       "id": 90,
       "name": "",
-      "value": "Key Permissions"
+      "value": "Klíčové povolení"
     },
     {
       "id": 91,
-      "name": "Success!",
-      "value": "{{user}} has been banned successfully!"
+      "name": "Úspěch!",
+      "value": "Uživatel {{user}} byl úspěšně zabanován!"
     },
     {
       "id": 92,
       "name": "",
-      "value": "Users banned"
+      "value": "Uživatelé zabanováni"
     },
     {
       "id": 93,
-      "name": "Success!",
-      "value": "Warnings for {{user}} have been deleted. Total of {{num}}"
+      "name": "Úspěch!",
+      "value": "Varování pro uživatele {{user}} Byly smazány. Počet smazaných záznamů: {{num}}"
     },
     {
       "id": 94,
-      "name": "Error",
-      "value": "Please mention a valid id."
+      "name": "Chyba",
+      "value": "Prosím, zmiňte platné ID."
     },
     {
       "id": 95,
-      "name": "Success!",
-      "value": "Warnings with id {{id}} has been deleted."
+      "name": "Úspěch!",
+      "value": "Záznam {{id}} byl smazán."
     },
     {
       "id": 96,
-      "name": "Error",
-      "value": "I don't have permission to do that!"
+      "name": "Chyba",
+      "value": "Pro tuto akci nemám oprávnění, pokud chcete tuto funkci využívat, přenastavte mé oprávnění!"
     },
     {
       "id": 97,
-      "name": "Success!",
-      "value": "{{user}} has been kicked successfully."
+      "name": "Úspěch!",
+      "value": "Uživatel {{user}} byl vyhozen."
     },
     {
       "id": 98,
-      "name": "Success!",
-      "value": "{{user}} has been muted successfully."
+      "name": "Úspěch!",
+      "value": "Uživatel {{user}} byl umlčen."
     },
     {
       "id": 99,
-      "name": "Success!",
-      "value": "I've purged {{num}} messages successfully."
+      "name": "Úspěch!",
+      "value": "Smazal jsem {{num}} zpráv."
     },
     {
       "id": 100,
-      "name": "Success!",
-      "value": "Mention an id please. You can get all banned ids using the command bans."
+      "name": "Úspěch!",
+      "value": "Prosím, zmiňte platné ID, list všech banů můžete získat pomocí příkazu bans."
     },
     {
       "id": 101,
-      "name": "Success!",
-      "value": "{{user}} has been unmuted successfully."
+      "name": "Úspěch!",
+      "value": "Uživatel {{user}} byl odmlčen."
     },
     {
       "id": 102,
-      "name": "Success!",
-      "value": "{{user}} has been warned successfully."
+      "name": "Úspěch!",
+      "value": "Uživatel {{user}} byl varován."
     },
     {
       "id": 103,
-      "name": "Not found",
-      "value": "No warnings could be found for {{user}}"
-    },
-    {
-      "id": 104,
-      "name": "Error",
-      "value": "Mention a valid url or attach a file."
+      "name": "Nenalezeno",
+      "value": "Nebyly nalezené žádné záznamy pro uživatele {{user}}"
     }
   ]
 }
